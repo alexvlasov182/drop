@@ -128,7 +128,6 @@ GEM
     matrix (0.4.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
-    mini_portile2 (2.8.0)
     minitest (5.16.3)
     msgpack (1.5.6)
     net-imap (0.2.3)
@@ -149,12 +148,7 @@ GEM
       timeout
     net-ssh (7.0.1)
     nio4r (2.5.8)
-    nokogiri (1.13.8)
-      mini_portile2 (~> 2.8.0)
-      racc (~> 1.4)
     nokogiri (1.13.8-x86_64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.13.8-x86_64-linux)
       racc (~> 1.4)
     pg (1.4.3)
     public_suffix (5.0.0)
@@ -213,7 +207,7 @@ GEM
       net-ssh (>= 2.8.0)
     stimulus-rails (1.1.0)
       railties (>= 6.0.0)
-    strscan (3.0.4)
+    strscan (3.0.1)
     thor (1.2.1)
     timeout (0.3.0)
     turbo-rails (1.1.1)
@@ -240,9 +234,7 @@ GEM
     zeitwerk (2.6.0)
 
 PLATFORMS
-  ruby
   x86_64-darwin-17
-  x86_64-linux
 
 DEPENDENCIES
   bootsnap
@@ -260,6 +252,7 @@ DEPENDENCIES
   selenium-webdriver
   sprockets-rails
   stimulus-rails
+  strscan (~> 3.0.1)
   turbo-rails
   tzinfo-data
   web-console

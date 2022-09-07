@@ -84,7 +84,3 @@ production:
   database: drop_production
   username: deploy
   password: <%= ENV["DROP_DATABASE_PASSWORD"] %>
-
-  DATABASE_URL=postgresql://deploy:0611@127.0.0.1/drop_production
-  SECRET_KEY_BASE=c39d708bb4155e8158cf184e183c1694ba90f4c42d690b2625e279a8274384681c69cefc1833a0f372fc0a40aaf15eb7bdf9462a9723e50bc66db00561f65d4d
-
